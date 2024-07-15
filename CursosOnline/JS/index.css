@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #512121;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+#courses .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.course-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #512828;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
